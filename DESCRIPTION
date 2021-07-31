@@ -1,0 +1,29 @@
+Package: s4r
+Type: Package
+Title: Autoencoders for Supervised Complexity Reduction
+Version: 0.1.0
+Author: David Charte
+Maintainer: David Charte <fdavidcl@ugr.es>
+Description: Implementations of custom autoencoders based on the Ruta package:
+    (1) Scorer is regularized with Fisher's Discriminant Ratio, and
+    (2) Slicer uses a LS-SVM-based penalty to achieve better class separability.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: ruta, keras, purrr, scmamp, dcme, cccd, caret, dimRed, ggridges, ggplot2, ECoL, pROC, yarr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Collate: 
+    '01classes.R'
+    'svm_layer.R'
+    'custom-autoencoder.R'
+    'slicer.R'
+    'combined.R'
+    'data_management.R'
+    'display.R'
+    'evaluation.R'
+    'experiment.R'
+    'scorer.R'
+    'skaler.R'
+    'utils.R'
+    'validation_proc.R'
