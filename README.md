@@ -9,7 +9,7 @@ Package installation
 In an R session:
 
 ```r
-remotes::install_github("fdavidcl/s4r")
+remotes::install_github("ari-dasci/S-reducing-complexity")
 ```
 
 ### For development
@@ -17,7 +17,7 @@ remotes::install_github("fdavidcl/s4r")
 In a shell:
 
 ```
-$ git clone https://github.com/fdavidcl/s4r.git
+$ git clone https://github.com/ari-dasci/S-reducing-complexity.git s4r
 $ cd s4r
 $ R
 ```
